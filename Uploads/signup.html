@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<title> User Registration... </title>
+	</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1>New User Registration!!</h1>    
+		<a href="index.php" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-home"></span> Back To Home Page</a>
+	</div>
+	<form role="form" method="post" action="signup.php">
+	<div class="col-xs-4">
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="name" name="username">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="age" name="password">
+    </div>
+    <div class="form-group">
+      <label for="usr">Password:</label>
+      <input type="text" class="form-control" id="add" name="cnfpassword">
+    </div>
+    <div class="form-group">
+      <label for="usr">Email:</label>
+      <input type="text" class="form-control" id="email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="usr">Mobile:</label>
+      <input type="text" class="form-control" id="mobile" name="contact">
+    </div>
+    <div class="checkbox">
+		<label><input type="checkbox"> Remember me</label>
+	</div>
+    <button type="button" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Create New User</button>
+    <a href="login.html" class="btn btn-primary"><span class="glyphicon glyphicon-user"></span> Go to Login Page</a>
+  	</form>
+
+
+</div>
+	</body>
+</html>
